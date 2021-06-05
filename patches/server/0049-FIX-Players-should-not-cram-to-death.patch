@@ -3,7 +3,7 @@ From: William Blake Galbreath <blake.galbreath@gmail.com>
 Date: Sun, 21 Jul 2019 18:01:46 -0500
 Subject: [PATCH] [FIX] Players should not cram to death
 
-{EXPLANATION}
+Prevent players from getting damaged by the cramming gamerule
 
 diff --git a/src/main/java/net/minecraft/server/level/EntityPlayer.java b/src/main/java/net/minecraft/server/level/EntityPlayer.java
 index 57900f89695bcce9aa6e90ab96007e456ef0448a..c766ec5ac4519d1c734a10e667988ada040096c5 100644
